@@ -1,0 +1,49 @@
+.task {
+  width: 736px;
+  height: 72px;
+  margin: 0 auto 12px;
+  background-color: #262626;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.task .checker {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  border: 2px solid #4ea8de;
+}
+
+.task .checked {
+  height: 24px;
+  width: 24px;
+}
+
+.task p {
+  font-size: 14px;
+  color: #f2f2f2;
+  flex: 1;
+}
+
+.taskCompleted {
+  text-decoration: line-through;
+}
+
+.task button {
+  width: 24px;
+  height: 24px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.task button img {
+  width: 80%;
+  height: 80%;
+}
